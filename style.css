@@ -157,3 +157,23 @@ body {
     letter-spacing: 2px;
     font-weight: 500;
 }
+
+@media (max-width:799px) {
+    .wrapper{
+        width: 95%;
+    }
+    .container{
+        padding: 25px 15px;
+    }
+    .search-box button {
+        padding: 5px;
+        font-size: 13px;
+    }
+    .shape-1 {
+        height: 10em;
+        width: 10em;
+        right: -0.1em;
+       
+    }
+}
+    
